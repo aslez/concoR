@@ -2,8 +2,8 @@
 #'
 #'Uses tie density to assess the fit of a blockmodel on multiple relations.
 
-#'@param m0 A list of \eqn{n \times n} matrices, each of which refers to a
-#'relation on a set of vertices.  Only one-mode data are supported at present.
+#'@param m0 A single \eqn{n} x \eqn{n} matrix.  Only one-mode data are 
+#'supported at present.
 #'@param blocks A \code{data.frame} depicting the assignment of vertices 
 #'to blocks.
 #'@param digits The number of significant digits used when printing results.

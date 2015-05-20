@@ -13,7 +13,7 @@ concor(m0, cutoff = 0.999, max.iter = 50)
 block_names(p_list)
 }
 \arguments{
-\item{m0}{A list of \eqn{n \times n} matrices, each of which refers to a
+\item{m0}{A list of \eqn{n} x \eqn{n} matrices, each of which refers to a
 relation on a set of vertices.  Only one-mode data are supported at present.
 #'}
 

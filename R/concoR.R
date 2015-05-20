@@ -3,7 +3,7 @@
 #'Paritions relational data using a CONvergence of iterated CORrelations 
 #'(CONCOR) algorithm.
 
-#'@param m0 A list of \eqn{n \times n} matrices, each of which refers to a
+#'@param m0 A list of \eqn{n} x \eqn{n} matrices, each of which refers to a
 #'relation on a set of vertices.  Only one-mode data are supported at present.
 #'#'@param cutoff A value between 0 and 1 used to determine convergence.
 #'@param max.iter An integer representing the maximum number of iterations.
