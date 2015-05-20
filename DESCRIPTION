@@ -3,7 +3,7 @@ Type: Package
 Title: CONvergence of iterated CORrelations
 Version: 0.1
 Date: 2015-05-20
-Authors: person("Adam", "Slez", email = "aslez@virginia.edu",
+Authors@R: person("Adam", "Slez", email = "aslez@virginia.edu",
     role = c("aut", "cre"))
 Description: Hierarchical clustering using CONCOR plus basic blockmodeling.
 License: MIT + file LICENSE
