@@ -8,3 +8,5 @@ Authors@R: person("Adam", "Slez", email = "aslez@virginia.edu",
 Description: Hierarchical clustering using CONCOR plus basic blockmodeling.
 License: MIT + file LICENSE
 LazyData: true
+Suggests:
+    sna
