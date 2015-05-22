@@ -56,6 +56,6 @@ concor <- function(m0, cutoff = 0.999, max.iter = 50) {
 block_names <- function(p_list) {
   lapply(seq_along(p_list), 
          function(x) data.frame(block = x, 
-                                vertex = names(p_list[[x]]),
+                                vertex = colnames(p_list[[x]]),
                                 stringsAsFactors = FALSE))
 }
